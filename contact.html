@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Send feedback or questions about healthy living.">
+  <meta name="keywords" content="contact, form, feedback, questions">
+  <meta name="author" content="Caelum Terrell">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="health.css">
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="nutrition.html">Nutrition</a>
+    <a href="meals.html">Meals</a>
+    <a href="lifestyle.html">Lifestyle</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <section>
+      <h2>Send a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="goal">Your Goal:</label><br>
+        <select id="goal" name="goal">
+          <option value="weight_loss">Weight Loss</option>
+          <option value="weight_gain">Weight Gain</option>
+          <option value="clean_eating">Clean Eating</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Contact me at <a href="mailto:cmterrel@asu.edu">cmterrel@asu.edu</a></p>
+    <p>&copy; 2025 Healthy Living</p>
+  </footer>
+
+</body>
+</html>
